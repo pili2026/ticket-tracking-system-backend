@@ -21,7 +21,7 @@ import java.util.List;
     asking the Service to process it, and finally returning the data (response).)
  */
 
-@CrossOrigin(origins = "http://0.0.0.0:4200", allowedHeaders = "*")
+@CrossOrigin(origins = "http://0.0.0.0:4200/tickets", allowedHeaders = "*")
 @RestController
 @RequestMapping(value = "/tickets", produces = MediaType.APPLICATION_JSON_VALUE)
 public class TicketController {

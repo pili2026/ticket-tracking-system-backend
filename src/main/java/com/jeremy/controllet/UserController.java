@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "http://0.0.0.0:4200/users", allowedHeaders = "*")
 @RestController
 @RequestMapping(produces = MediaType.APPLICATION_JSON_VALUE)
 public class UserController {
